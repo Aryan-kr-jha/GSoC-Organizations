@@ -604,6 +604,26 @@ const manualRepositories = {
     organizationProfile: 'https://github.com/discourse',
     source: 'manual',
   },
+  'GNOME Foundation': {
+    repositories: [
+      {
+        label: "Official repositories",
+        url: "https://gitlab.gnome.org/GNOME",
+        host: "Self-hosted Git",
+        verified: true,
+        lastChecked: "2026-11-15"
+      },
+      {
+        label: "GitHub read-only mirror",
+        url: "https://github.com/GNOME",
+        host: "GitHub",
+        verified: true,
+        lastChecked: "2026-11-15"
+      }
+    ],
+    organizationProfile: "https://gitlab.gnome.org/GNOME",
+    source: "manual"
+  }
 };
 
 class UnionFind {
@@ -777,18 +797,18 @@ const organizations = [...groupedRecords.values()]
       manual ||
       (derived
         ? {
-            repositories: [derived],
-            organizationProfile:
-              derived.label === 'Organization profile'
-                ? derived.url
-                : undefined,
-            source: 'derived',
-          }
+          repositories: [derived],
+          organizationProfile:
+            derived.label === 'Organization profile'
+              ? derived.url
+              : undefined,
+          source: 'derived',
+        }
         : {
-            repositories: [],
-            organizationProfile: `https://www.google.com/search?q=${encodeURIComponent(`${org.name} source code repository`)}`,
-            source: 'search',
-          });
+          repositories: [],
+          organizationProfile: `https://www.google.com/search?q=${encodeURIComponent(`${org.name} source code repository`)}`,
+          source: 'search',
+        });
     repositoryLinks[org.name] = repository;
     const years = org.participations.map((item) => item.year);
     const localLogo = logoAssets[org.slug];
