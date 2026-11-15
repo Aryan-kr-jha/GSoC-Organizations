@@ -345,6 +345,13 @@ const manualRepositories = {
   DBpedia: {
     repositories: [
       {
+        label: 'DBpedia repositories',
+        url: 'https://github.com/dbpedia',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-14',
+      },
+      {
         label: 'DBpedia Extraction Framework',
         url: 'https://github.com/dbpedia/extraction-framework',
         host: 'GitHub',
@@ -366,7 +373,7 @@ const manualRepositories = {
         lastChecked: '2026-11-14',
       },
       {
-        label: 'DBpedia Core Repository',
+        label: 'DBpedia tools',
         url: 'https://github.com/dbpedia/dbpedia',
         host: 'GitHub',
         verified: true,
