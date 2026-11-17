@@ -175,8 +175,8 @@ const manualRepositories = {
   'Classical Language Toolkit': {
     repositories: [
       {
-        label: 'Official repositories',
-        url: 'https://github.com/cltk',
+        label: 'Classical Language Toolkit source repository',
+        url: 'https://github.com/cltk/cltk',
         host: 'GitHub',
         verified: true,
         lastChecked: '2026-11-17',
