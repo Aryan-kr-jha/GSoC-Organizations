@@ -604,6 +604,19 @@ const manualRepositories = {
     organizationProfile: 'https://github.com/discourse',
     source: 'manual',
   },
+  'Free and Open Source Silicon Foundation': {
+    repositories: [
+      {
+        label: 'FOSSi Foundation repositories',
+        url: 'https://github.com/fossi-foundation',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-17',
+      },
+    ],
+    organizationProfile: 'https://github.com/fossi-foundation',
+    source: 'manual',
+  },
 };
 
 class UnionFind {
