@@ -604,10 +604,11 @@ const manualRepositories = {
     organizationProfile: 'https://github.com/discourse',
     source: 'manual',
   },
+
   'GNOME Foundation': {
     repositories: [
       {
-        label: 'Official repositories',
+        label: 'GNOME repositories',
         url: 'https://gitlab.gnome.org/GNOME',
         host: 'Self-hosted Git',
         verified: true,
@@ -622,6 +623,19 @@ const manualRepositories = {
       },
     ],
     organizationProfile: 'https://gitlab.gnome.org/GNOME',
+    source: 'manual',
+  },
+  'Free and Open Source Silicon Foundation': {
+    repositories: [
+      {
+        label: 'FOSSi Foundation repositories',
+        url: 'https://github.com/fossi-foundation',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-17',
+      },
+    ],
+    organizationProfile: 'https://github.com/fossi-foundation',
     source: 'manual',
   },
 };

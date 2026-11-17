@@ -40742,9 +40742,17 @@
       }
     ],
     "repository": {
-      "repositories": [],
-      "organizationProfile": "https://www.google.com/search?q=Free%20and%20Open%20Source%20Silicon%20Foundation%20source%20code%20repository",
-      "source": "search"
+      "repositories": [
+        {
+          "label": "FOSSi Foundation repositories",
+          "url": "https://github.com/fossi-foundation",
+          "host": "GitHub",
+          "verified": true,
+          "lastChecked": "2026-11-17"
+        }
+      ],
+      "organizationProfile": "https://github.com/fossi-foundation",
+      "source": "manual"
     }
   },
   {
@@ -47229,7 +47237,7 @@
     "repository": {
       "repositories": [
         {
-          "label": "Official repositories",
+          "label": "GNOME repositories",
           "url": "https://gitlab.gnome.org/GNOME",
           "host": "Self-hosted Git",
           "verified": true,
