@@ -172,6 +172,19 @@ function repositoryFromUrl(value) {
 }
 
 const manualRepositories = {
+  'Classical Language Toolkit': {
+    repositories: [
+      {
+        label: 'Classical Language Toolkit source repository',
+        url: 'https://github.com/cltk/cltk',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-17',
+      },
+    ],
+    organizationProfile: 'https://github.com/cltk',
+    source: 'manual',
+  },
   FOSDEM: {
     repositories: [
       {
@@ -657,6 +670,19 @@ const manualRepositories = {
       },
     ],
     organizationProfile: 'https://github.com/discourse',
+    source: 'manual',
+  },
+  'Free and Open Source Silicon Foundation': {
+    repositories: [
+      {
+        label: 'FOSSi Foundation repositories',
+        url: 'https://github.com/fossi-foundation',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-17',
+      },
+    ],
+    organizationProfile: 'https://github.com/fossi-foundation',
     source: 'manual',
   },
 };

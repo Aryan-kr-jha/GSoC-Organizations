@@ -175,9 +175,17 @@
     "source": "search"
   },
   "Classical Language Toolkit": {
-    "repositories": [],
-    "organizationProfile": "https://www.google.com/search?q=Classical%20Language%20Toolkit%20source%20code%20repository",
-    "source": "search"
+    "repositories": [
+      {
+        "label": "Classical Language Toolkit source repository",
+        "url": "https://github.com/cltk/cltk",
+        "host": "GitHub",
+        "verified": true,
+        "lastChecked": "2026-11-17"
+      }
+    ],
+    "organizationProfile": "https://github.com/cltk",
+    "source": "manual"
   },
   "CloudCV": {
     "repositories": [
@@ -427,9 +435,17 @@
     "source": "search"
   },
   "Free and Open Source Silicon Foundation": {
-    "repositories": [],
-    "organizationProfile": "https://www.google.com/search?q=Free%20and%20Open%20Source%20Silicon%20Foundation%20source%20code%20repository",
-    "source": "search"
+    "repositories": [
+      {
+        "label": "FOSSi Foundation repositories",
+        "url": "https://github.com/fossi-foundation",
+        "host": "GitHub",
+        "verified": true,
+        "lastChecked": "2026-11-17"
+      }
+    ],
+    "organizationProfile": "https://github.com/fossi-foundation",
+    "source": "manual"
   },
   "The FreeBSD Project": {
     "repositories": [
