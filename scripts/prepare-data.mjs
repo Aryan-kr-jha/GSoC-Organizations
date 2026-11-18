@@ -172,6 +172,19 @@ function repositoryFromUrl(value) {
 }
 
 const manualRepositories = {
+  'Classical Language Toolkit': {
+    repositories: [
+      {
+        label: 'Classical Language Toolkit source repository',
+        url: 'https://github.com/cltk/cltk',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-17',
+      },
+    ],
+    organizationProfile: 'https://github.com/cltk',
+    source: 'manual',
+  },
   FOSDEM: {
     repositories: [
       {
