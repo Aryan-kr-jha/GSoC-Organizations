@@ -630,6 +630,19 @@ const manualRepositories = {
     organizationProfile: 'https://github.com/fossi-foundation',
     source: 'manual',
   },
+  'Distributed and Unified Numerics Environment (DUNE)': {
+    repositories: [
+      {
+        label: 'DUNE official repositories',
+        url: 'https://gitlab.dune-project.org/core',
+        host: 'GitLab',
+        verified: true,
+        lastChecked: '2026-11-19',
+      },
+    ],
+    organizationProfile: 'https://www.dune-project.org/',
+    source: 'manual',
+  },
 };
 
 class UnionFind {
