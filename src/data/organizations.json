@@ -124735,9 +124735,17 @@
       }
     ],
     "repository": {
-      "repositories": [],
-      "organizationProfile": "https://www.google.com/search?q=ReactOS%20Foundation%20source%20code%20repository",
-      "source": "search"
+      "repositories": [
+        {
+          "label": "ReactOS source repository",
+          "url": "https://github.com/reactos/reactos",
+          "host": "GitHub",
+          "verified": true,
+          "lastChecked": "2026-11-19"
+        }
+      ],
+      "organizationProfile": "https://github.com/reactos",
+      "source": "manual"
     }
   },
   {
