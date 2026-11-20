@@ -708,7 +708,7 @@ const manualRepositories = {
         lastChecked: '2026-11-19',
       },
     ],
-    organizationProfile: 'https://www.dune-project.org/',
+    organizationProfile: 'https://gitlab.dune-project.org/core',
     source: 'manual',
   },
 };
