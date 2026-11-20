@@ -296,6 +296,19 @@ const manualRepositories = {
     organizationProfile: 'https://github.com/gnss-sdr',
     source: 'manual',
   },
+  'ReactOS Foundation': {
+    repositories: [
+      {
+        label: 'ReactOS source repository',
+        url: 'https://github.com/reactos/reactos',
+        host: 'GitHub',
+        verified: true,
+        lastChecked: '2026-11-19',
+      },
+    ],
+    organizationProfile: 'https://github.com/reactos',
+    source: 'manual',
+  },
   'Genes, Genomes and Variation': {
     repositories: [
       {
